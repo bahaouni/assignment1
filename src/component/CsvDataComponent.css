@@ -1,0 +1,25 @@
+.csv-data-container {
+    padding: 20px;
+  }
+  
+  .csv-data-table {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .csv-data-table .ant-table-thead > tr > th {
+    background-color: #fafafa;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .csv-data-table .ant-table-tbody > tr > td {
+    text-align: center;
+  }
+  
+  .csv-data-table .table-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
